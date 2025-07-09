@@ -93,15 +93,18 @@
     font-size: 15px;
     transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
   }
-  .linkedin-button:hover{
+  .linkedin-button_1:hover {
     opacity: 0.8;
-  }
-  .linkedin-button:active {
-    background-color: rgb(10, 102, 194);
-    color: white;
     box-shadow: 3px 9px 9px rgba(0, 0, 0, 0.2);
+    border: none;
   }
-  .linkedin-button {
+  .linkedin-button_1:active {
+    opacity: 0.6;
+    box-shadow: 3px 9px 9px rgba(0, 0, 0, 0.2);
+    border: none;
+  }
+ 
+  .linkedin-button{
     color: white;
     background-color: rgb(10, 102, 194);
     height: 30px;
@@ -112,6 +115,14 @@
     margin-right: 9px;
     margin-bottom: 9px;
     font-size: 15px;
+  }
+  .linkedin-button:hover{
+    opacity: 0.8;
+  }
+  .linkedin-button:active {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    box-shadow: 3px 9px 9px rgba(0, 0, 0, 0.2);
   }
   .bootstrap-button {
     color: white;
@@ -124,6 +135,13 @@
     margin-right: 9px;
     margin-bottom: 9px;
     font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s, border-color 0.3s;
+  }
+  .bootstrap-button:hover {
+    opacity: 0.8;
+  }
+  .bootstrap-button:active {
+    opacity: 0.6;
   }
   .bootstrap_download-button {
     color: rgb(108, 117, 125);
@@ -137,5 +155,19 @@
     margin-right: 9px;
     margin-bottom: 9px;
     font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s, border-color 0.3s;
+  }
+  .bootstrap_download-button:hover{
+    background-color: rgb(108, 117, 125);
+    color: white;
+    box-shadow: 3px 9px 9px rgba(0, 0, 0, 0.2);
+    border:none;
+  }
+  .bootstrap_download-button:active {
+    background-color: white;
+    color: rgb(108, 117, 125);
+    box-shadow: 3px 9px 9px rgba(0, 0, 0, 0.2);
+    border-color: rgb(108, 117, 125);
+    border: 1.5px solid;
   }
 </style>
