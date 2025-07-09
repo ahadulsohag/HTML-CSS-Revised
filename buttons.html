@@ -28,6 +28,14 @@
     cursor: pointer;
     margin-right: 9px;
     margin-bottom: 9px;
+    transition: opacity 0.3s, box-shadow 0.3s;
+  }
+  .uber-button:hover {
+    opacity: 0.8;
+    box-shadow: 1.5px 3px 9px rgba(0, 0, 0, 0.4);
+  }
+  .uber-button:active {
+    opacity: 0.6;
   }
   .amazon-button {
     color: black;
@@ -39,6 +47,17 @@
     cursor: pointer;
     margin-right: 9px;
     margin-bottom: 9px;
+    transition:background-color 0.3s, color 0.3s, box-shadow 0.3s;
+  }
+  .amazon-button:hover {
+    background-color: black;
+    color: rgb(255, 216, 20);
+    box-shadow: 3px 9px 9px rgba(0, 0, 0, 0.2);
+  }
+  .amazon-button:active {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    box-shadow: 3px 9px 9px rgba(0, 0, 0, 0.2);
   }
   .github-button {
     color: white;
