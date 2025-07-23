@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Youtube</title>
-        <link rel="stylesheet" href="CSS/Youtube.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-            rel="stylesheet">
-    </head>
-    <body>
-        <input class="search-bar" type="text" placeholder="Search">
-        <div class ="video-preview">
+
+<head>
+    <title>Youtube</title>
+    <link rel="stylesheet" href="CSS/Youtube.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <input class="search-bar" type="text" placeholder="Search">
+    <div class="video-preview">
+        <div class="video-block">
             <img class="thumb" src="thumbnails/thumbnail-1.webp">
-            <img class ="profile-picture" src="profile_pictures/channel-1.jpeg">
+        </div>
+        <div class="profile-picture">
+            <img class="profile-picture" src="profile_pictures/channel-1.jpeg">
+        </div>
+        <div class="profile-description">
             <p class="desciption-text">
                 Talking Tech and AI with Google CEO Sundar Pichai!
             </p>
-            <p class="channel-name">
-                Marques Brownlee
-            </p>
-            <p class="views">
-                3.6M views &#183 8 months ago
-            </p>
         </div>
-        <div class="video-preview">
-            <img class="thumb" src="thumbnails/hq720 (1).avif">
-            <p class="desciption-text">
-                HTML & CSS Full Course - Beginner to Pro
-            </p>
-            <p class="channel-name">
-                SuperSimpleDev
-            </p>
-            <p class="views">
-                15M views &#183 3 years ago
-            </p>
-        </div>
-    </body>
+        <p class="channel-name">
+            Marques Brownlee
+        </p>
+        <p class="views">
+            3.6M views &#183 8 months ago
+        </p>
+    </div>
+    <div class="video-preview">
+        <img class="thumb" src="thumbnails/hq720 (1).avif">
+        <p class="desciption-text">
+            HTML & CSS Full Course - Beginner to Pro
+        </p>
+        <p class="channel-name">
+            SuperSimpleDev
+        </p>
+        <p class="views">
+            15M views &#183 3 years ago
+        </p>
+    </div>
+</body>
+
 </html>
