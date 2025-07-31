@@ -3,23 +3,102 @@
 
 <head>
     <title>Youtube</title>
-    <link rel="stylesheet" href="CSS/Youtube.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <style>
+        p {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-family: Roboto, Arial;
+        }
 
+        .thumbnail {
+            width: 300px;
+            display: inline-block;
+
+        }
+
+        .search-bar {
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .profile_picture {
+            width: 40px;
+            border-radius: 40px;
+            margin-top: 6px;
+            margin-right: 4px;
+        }
+
+        .video-title {
+            font-weight: 500;
+            font-size: 14px;
+
+        }
+
+        .viewsand-date {
+            color: rgb(96, 96, 96);
+            font-size: 12px;
+            margin-top: 5px;
+        }
+
+        .creator-name {
+            color: rgb(96, 96, 96);
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+        .profile-picture-container {
+            display: inline-block;
+
+        }
+
+        .video-details {
+            display: inline-block;
+            width: 230px;
+            vertical-align: top;
+            margin-top: 6px;
+
+        }
+
+        .video-details-container {
+            width: 300px;
+            vertical-align: top;
+            margin-bottom: 4px;
+        }
+
+        .video-preview {
+            width: 300px;
+        }
     </style>
 </head>
 
 <body>
-    <input class="Search-bar" type="text" placeholder="Search">
+    <input class="search-bar" type="text" placeholder="Search">
 
-    <div class="video-grid">
+    <div class="video-preview">
         <div>
-            <img src="thumbnails/thumbnail-1.webp">
-            
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+
+        </div>
+        <div class="video-details-container">
+            <div class="profile-picture-container">
+                <img class="profile_picture" src="profile_pictures/channel-1.jpeg">
+            </div>
+            <div class="video-details">
+                <p class="video-title">
+                    Talking Tech and AI with Google CEO Sundar Pichai!
+                </p>
+                <p class="creator-name">
+                    Marques Brownlee
+                </p>
+                <p class="viewsand-date">
+                    3.4M views &#183 6 months ago
+                </p>
+            </div>
+
         </div>
     </div>
 </body>
