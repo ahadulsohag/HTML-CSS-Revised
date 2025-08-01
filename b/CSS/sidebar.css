@@ -1,68 +1,72 @@
 .sidebar {
   position: fixed;
   left: 0;
+  top: 55px;
+  bottom: 0;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  align-items: center;
+  width: 72px;
 }
-.home-icon{
-    width: 26px;
+.home-icon {
+  width: 26px;
 }
-.home-button{
-    border: 0;
-    background-color: rgb(255, 255, 255);
-    cursor: pointer;
+.home-button {
+  border: 0;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
 }
-.explore-icon{
-    width: 26px;
+.explore-icon {
+  width: 26px;
 }
-.explore-button{
-    border: 0;
-    background-color: rgb(255, 255, 255);
-    cursor: pointer;
+.explore-button {
+  border: 0;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
 }
-.subscription-icon{
-    width: 26px;
+.subscription-icon {
+  width: 26px;
 }
-.subscription-button{
-    border: 0;
-    background-color: rgb(255, 255, 255);
-    width: 26px;
-    cursor: pointer;
+.subscription-button {
+  border: 0;
+  background-color: rgb(255, 255, 255);
+  width: 26px;
+  cursor: pointer;
 }
-.home-button{
-    border: 0;
-    background-color: rgb(255, 255, 255);
-    width: 26px;
-    cursor: pointer;
+.home-button {
+  border: 0;
+  background-color: rgb(255, 255, 255);
+  width: 26px;
+  cursor: pointer;
 }
-.home-button{
-    border: 0;
-    background-color: rgb(255, 255, 255);
-    cursor: pointer;
+.home-button {
+  border: 0;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 
-.originals-icon{
-    width: 26px;
+.originals-icon {
+  width: 26px;
 }
-.originals-button{
-    border: 0;
-    background-color: rgb(255, 255, 255);
-    cursor: pointer;
+.originals-button {
+  border: 0;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
 }
-.youtube-music-icon{
-    width: 26px;
+.youtube-music-icon {
+  width: 26px;
 }
-.youtube-music-button{
-    border: 0;
-    background-color: rgb(255, 255, 255);
-    cursor: pointer;
+.youtube-music-button {
+  border: 0;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
 }
-.library-icon{
-    width: 26px;
+.library-icon {
+  width: 26px;
 }
-.library-button{
-    border: 0;
-    background-color: rgb(255, 255, 255);
-    cursor: pointer;
+.library-button {
+  border: 0;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
 }
