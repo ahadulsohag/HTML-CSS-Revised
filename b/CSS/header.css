@@ -12,6 +12,7 @@
   border-bottom-width: 1px;
   border-bottom-color: rgb(221, 221, 222);
   border-bottom-style: solid;
+  z-index: 100;
 }
 .right-section {
   width: 180px;
