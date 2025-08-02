@@ -118,4 +118,19 @@
 .notification-button {
   border: 0px;
   background-color: rgb(255, 255, 255);
+  height: 44px;
+  width: 44px;
+  position: relative;
+  
+}
+.notification-count{
+  position: absolute;
+  top: 2px;
+  right: px;
+  background-color: rgb(216, 23, 23);
+  color: white;
+  padding: 4px;
+  border-radius: 500px;
+  width: 5px;
+  font-size: 9px;
 }
