@@ -12,6 +12,7 @@
 .video-title {
   font-weight: 500;
   font-size: 14px;
+  display: inline-block;
 }
 
 .viewsand-date {
@@ -31,15 +32,14 @@
 }
 
 .video-details {
-  display: inline-block;
-  width: 230px;
+  display: grid;
   vertical-align: top;
   margin-top: 6px;
 }
 
 .video-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
 }
